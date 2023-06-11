@@ -1,9 +1,9 @@
-import {NButton} from "naive-ui";
+import { NButton } from 'naive-ui'
 
 export default function Home() {
   return (
     <div>
-      <NButton type={"primary"}>hello</NButton>
+      <NButton type={'primary'}>hello</NButton>
     </div>
   )
 }

@@ -1,11 +1,7 @@
-import { NLayoutSider } from 'naive-ui'
-
 export default function Sider() {
   return (
-    <NLayoutSider
-      bordered
-      content-style="padding: 24px;"
-      has-sider
-    ></NLayoutSider>
+    <aside class="h-100vh w-272px sider-shadow b-rd-10px bg-hex-fff">
+
+    </aside>
   )
 }

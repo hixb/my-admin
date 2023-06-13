@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f6f6f6;
+}
+
+.header-shadow {
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, .05);
+}
+
+.sider-shadow {
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, .05);
+}
+
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
